@@ -4,7 +4,7 @@ homeLink.addEventListener("dblclick", () => {
   homeLink.classList.toggle("large");
 });
 
-document.querySelector("nav").addEventListener(
+aboutLilnk.addEventListener(
   "mouseover",
   () => {
     event.target.style.color = "red";
@@ -17,5 +17,5 @@ document.querySelector("nav").addEventListener(
 );
 
 blogLink.addEventListener("mouseover", () => {
-  blogLink.cla;
+  blogLink.event.style.color = "blue";
 });
